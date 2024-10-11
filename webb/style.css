@@ -1,0 +1,70 @@
+.container-self {
+    width: 100%;
+    margin: 0 0;
+    background-color: gray;
+    height: 100%;
+}
+
+.conversationArea {
+    width: 80%;
+    margin: 10px auto;
+    background-color: rgba(255, 255, 255, 0.953);
+    height: 800px;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow: auto;
+}
+
+.inputArea {
+    margin: 0 auto;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.inputfield {
+    width: 90%;
+    display: inline-block;
+    margin: 0 0;
+}
+
+.submitButtonArea {
+    display: inline-block;
+    transform: translateY(-50%);
+    width: 9%;
+    margin: 0 0;
+}
+
+
+.botArea {
+    width: 100%;
+    margin: 0 0;
+    display: flex;
+}
+
+.userArea {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.botchat,
+.userchat {
+    border: 1px black solid;
+    border-radius: 15px 15px;
+    font-size: 20px;
+    margin: 10px 10px;
+
+
+}
+
+.originaluml,
+.reviseuml {
+    display: inline-block;
+    width: 49%;
+    border: 1px black solid;
+    text-align: center;
+    background-color: gray;
+    height: 500px;
+    margin: 5px;
+}
